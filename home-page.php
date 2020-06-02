@@ -20,7 +20,7 @@
 
     <!-- Indicators -->
     <ul class="carousel-indicators">
-      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="0"></li>
       <li data-target="#demo" data-slide-to="1"></li>
       <li data-target="#demo" data-slide-to="2"></li>
     </ul>
@@ -28,7 +28,7 @@
     <!-- The slideshow -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="<?php bloginfo("template_directory"); ?>/img/img1.jpg" alt="Attourneys" class="img-fluid">
+        <img src="<?php bloginfo("template_directory"); ?>/img/img1.jpg"  alt="Attourneys" class="img-fluid">
 
         <h3 class="carousel-caption carousel_h3 animated bounceInLeft"><?php the_field("slider_title1"); ?></h3>
 
@@ -38,7 +38,7 @@
 
 
       <div class="carousel-item">
-        <img src="<?php bloginfo("template_directory"); ?>/img/img2.jpg" alt="Lawyers" class="img-fluid">
+        <img src="<?php bloginfo("template_directory"); ?>/img/img2.jpg"   alt="Lawyers" class="img-fluid">
 
         <h3 class="carousel-caption carousel_h3"><?php the_field("slider_title2"); ?>
           </h3>
@@ -50,7 +50,7 @@
 
 
       <div class="carousel-item">
-        <img src="<?php bloginfo("template_directory"); ?>/img/img3.jpg" alt="New York" class="img-fluid">
+        <img src="<?php bloginfo("template_directory"); ?>/img/img3.jpg"   alt="New York" class="img-fluid">
         <h3 class="carousel-caption carousel_h3"><?php the_field("slider_title3"); ?></h3>
         <p class="carousel-caption carousel_p"><?php the_field("slider_title3_sub"); ?></p>
 

@@ -42,9 +42,33 @@ add_action("after_setup_theme", "navwalker" );
 
 
 
+function brighton_sidebar($id) {
+
+    register_sidebar([
+
+        'name' => 'sidebar1',
+        'id' => 'sidebar1',
+        'before_widget' => '<div class="sidebar">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3>',
+        'after_title' => '</h3>',
+    ]);
 
 
+    
+    register_sidebar([
 
+        'name' => 'sidebar2',
+        'id' => 'sidebar2',
+        'before_widget' => '<div class="sidebar">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3>',
+        'after_title' => '</h3>',
+    ]);
+
+}
+
+add_action ('widgets_init' , 'brighton_sidebar');
 
 
 

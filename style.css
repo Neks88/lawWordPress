@@ -17,6 +17,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
     font-size: 18px;
     font-family: lato;
     list-style: none;
+    text-decoration: none;
+    margin:0;
+    padding: 0;
 }
 
 
@@ -386,5 +389,82 @@ Use it to make something cool, have fun, and share what you've learned with othe
     height: auto !important;
 }
 
+.blog-img img  {
+    width: 100%;
+    height: auto;
+}
 
 
+.blog-body {
+    border: 1px solid rgba(0, 0, 0, 0.068);
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding: 1% 1% 3% 1%;
+}
+
+.title h3 {
+    font-weight: 700;
+}
+
+.blog-body-single {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.sidebar {
+    margin: 15% 0 0 0 ; 
+}
+
+.sidebar h3 {
+    font-size: 150%;
+    font-weight: 700;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+}
+
+.meta-cat {
+    display: inline-block;
+}
+
+/* ================================================
+                    Page.php
+==================================================*/
+
+.page {
+    margin-top: 3.5%;
+}
+
+.title h3 {
+    font-weight: 400;
+}
+
+.cus-form {
+    margin-bottom: 4%;
+}
+
+.case-a {
+    color:red;
+}
+
+.case-single-h2 {
+    margin:5% 0 2% 0;
+}
+.search-h2 {
+    margin:5%;
+}
+
+.search-title {
+    margin-top: 5%;
+}
+
+.search-meta {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.068);
+}
+
+.perma {
+    text-decoration: none !important;
+    font-size: 80%;
+
+}
